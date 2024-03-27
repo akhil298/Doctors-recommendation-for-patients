@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #0c0c0c;
+    background-color: #e1eacd;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #070707;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #61b390; /* Light grayish-blue background color */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #01352c; /* Green text color */
+    font-family: 'Roboto', sans-serif; /* Updated font */
+}
+
+label {
+    font-weight: bold;
+    color: #01352c; /* Blue text color */
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #bad8b6; /* Blue button background color */
+    color: #01352c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #407a61; /* Darker blue button background color on hover */
+}
+
+p {
+    margin-top: 20px;
+    color: #333; /* Dark gray text color */
+}
+
+strong {
+    font-weight: bold;
+    color:#01352c; /* Red text color */
+}
+
+/* Additional styles */
+button.primary {
+    background-color: #28a745; /* Green button background color */
+}
+
+button.secondary {
+    background-color: #61b390; /* Gray button background color */
+}
+
+button.primary:hover {
+    background-color: #218838; /* Darker green button background color on hover */
+}
+
+button.secondary:hover {
+    background-color: #01352c; /* Darker gray button background color on hover */
+}
+
